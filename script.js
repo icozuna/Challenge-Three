@@ -25,10 +25,24 @@ function generatePassword() {
   if (passwordLength < 8) {
     window.alert("Password must be at least 8 characters long.");
     return "";
-  } else if (passwordLength > 128) {
+  }
+  if (passwordLength > 128) {
     window.alert("Password must be less than 128 characters long.");
     return "";
   }
+
+  var lowerCase = window.prompt(
+    "Do you want to include lowercase characters in your password?"
+  );
+  if (lowerCase) {
+    window.alert(
+      "You have decided to add lower case characters to your password."
+    );
+  }
+  if (lowerCase) {
+    password += lowerCaseCharacters;
+  }
 }
+
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
