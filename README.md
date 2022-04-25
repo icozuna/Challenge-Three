@@ -9,7 +9,7 @@ A website that generates randomized password.
 * Javascript
 
 ## Website
-https://icozuna.github.io/Challenge-Two/
+https://icozuna.github.io/Challenge-Three/
 
 ## Contribution
 Made with ❤️ by Isaiah
