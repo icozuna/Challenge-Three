@@ -1,4 +1,18 @@
-# Challenge-Three
+# Password Generator
+
+## Purpose
+A website that generates randomized password. 
+
+## Built With
+* HTML
+* CSS
+* Javascript
+
+## Website
+https://icozuna.github.io/Challenge-Two/
+
+## Contribution
+Made with ❤️ by Isaiah
 
 
 
